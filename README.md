@@ -1,10 +1,10 @@
-# Discord MCP Server 🚀
+# Discord MCP Server 
 
 Connect **Claude Desktop** to **Discord** using MCP (Model Context Protocol).
 
 ---
 
-## ✨ Features
+##  Features
 
 - `get_channel` — list channels  
 - `read_message` — read messages  
@@ -12,7 +12,7 @@ Connect **Claude Desktop** to **Discord** using MCP (Model Context Protocol).
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 ```
 Claude → MCP Server → Discord Bot → Discord
@@ -20,7 +20,7 @@ Claude → MCP Server → Discord Bot → Discord
 
 ---
 
-## 📂 Structure
+##  Structure
 
 ```text
 MCP DISCORD/
@@ -36,7 +36,7 @@ MCP DISCORD/
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### List Channels
 ![List Channels](assets/list_channels.png)
@@ -49,7 +49,7 @@ MCP DISCORD/
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ### Install
 
@@ -109,7 +109,7 @@ DISCORD_TOKEN=your_token_here
 
 ---
 
-## ▶️ Run
+##  Run
 
 ```bash
 uv run server.py
@@ -117,7 +117,7 @@ uv run server.py
 
 ---
 
-## 💬 Examples
+##  Examples
 
 ```
 List channels in server 123
@@ -127,18 +127,18 @@ Send "Hello" to channel 456
 
 ---
 
-## 🔒 Notes
+##  Notes
 
 - Don’t share your token  
 - Reset it if leaked  
 
 ---
 
-## 📄 License
+##  License
 
 MIT 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 *Dioubi Issam* Ai developer
